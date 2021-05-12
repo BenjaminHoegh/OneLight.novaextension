@@ -1,0 +1,12 @@
+{
+  "identifier": "benjaminhoegh.OneLight",
+  "name": "One Light",
+  "organization": "Benjamin Høegh",
+  "description": "Atom One Light theme for Nova.",
+  "version": "1.0",
+  "bugs": "https://github.com/BenjaminHoegh/OneLight.novaextension/issues",
+  "repository": "https://github.com/BenjaminHoegh/OneLight.novaextension",
+  "keywords": ["light", "atom"],
+  "license": "MIT",
+  "categories": ["themes"]
+}

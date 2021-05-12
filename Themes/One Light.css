@@ -1,0 +1,179 @@
+meta {
+  -theme-interface-style: light;
+  -theme-vibrancy: none;
+  -theme-accent-color: true; }
+
+/*
+* window styles
+*/
+meta.window {
+  background-color: #eaeaeb;
+  border-color: #dbdbdc; }
+
+meta.titlebar {
+  color: #232324;
+  background: #eaeaeb;
+  border-color: #dbdbdc; }
+
+meta.titlebar.inactive {
+  background-color: #eaeaeb; }
+
+meta.button {
+  background-color: #fff;
+  border-color: #dbdbdc;
+  color: #424243; }
+
+meta.button.highlighted {
+  border-color: #556de8; }
+
+meta.button.selected {
+  color: #fff;
+  background-color: #5871ef;
+  border-color: #556de8; }
+
+meta.button.disabled {
+  background-color: #f8f8f8;
+  color: #eaeaeb;
+  border-color: #eaeaeb; }
+
+meta.textfield {
+  background-color: #fff;
+  border-color: #dbdbdc;
+  color: #8e8e90; }
+
+meta.textfield.active {
+  background-color: #ebeeff;
+  border-color: #568af2; }
+
+/*
+* document styles
+*/
+meta.document {
+  background-color: #fafafa;
+  border-color: rgba(0, 0, 0, 0.1); }
+
+meta.document.button {
+  background-color: #fff;
+  border-color: #dbdbdc; }
+
+meta.document.button.disabled {
+  background-color: #f8f8f8;
+  border-color: #eaeaeb;
+  color: #eaeaeb; }
+
+meta.document.button.highlighted {
+  border-color: #556de8; }
+
+meta.document.textfield {
+  background-color: #fff;
+  border-color: #dbdbdc;
+  color: #8e8e90; }
+
+meta.document.textfield.highlighted {
+  background-color: #ebeeff; }
+
+/* text */
+meta.text {
+  color: #383a42; }
+
+meta.text.invisible {
+  color: #d3d4d5; }
+
+meta.text.selected {
+  background-color: #e5e5e6; }
+
+/* cursor */
+meta.cursor {
+  background-color: #f0f0f0; }
+
+/* indentation guides */
+meta.indentguide {
+  border-color: #3c4048; }
+
+/* gutter */
+meta.gutter {
+  color: #c2c2c3; }
+
+meta.gutter.selected {
+  background-color: #ededee;
+  color: #86878c; }
+
+/* Syntax Highlighting */
+keyword {
+  color: #a726a4; }
+
+comment {
+  color: #a0a1a7;
+  font-style: italic; }
+
+bracket {
+  color: #383a42; }
+
+operator {
+  color: #a726a4; }
+
+value.null,
+value.boolean,
+value.number {
+  color: #b86b01; }
+
+string {
+  color: #50a14f; }
+
+regex.escaped {
+  color: #0084bc; }
+
+identifier.variable {
+  color: #e45648; }
+
+identifier.function {
+  color: #0084bc; }
+
+identifier.method {
+  color: #3f78f2; }
+
+identifier.property {
+  color: #e45648; }
+
+identifier.argument {
+  color: #e45648; }
+
+definition.identifier.constant,
+identifier.type.class.name {
+  color: #b86b01; }
+
+/* Tags */
+tag {
+  color: #e45648; }
+
+tag.framework {
+  color: #ca1243; }
+
+tag.attribute.name {
+  color: #b86b01; }
+
+tag.attribute.value {
+  color: #50a14f; }
+
+tag.attribute.value.link {
+  color: #0084bc;
+  text-decoration: underline; }
+
+/* Styles */
+style.selector {
+  color: #e45648; }
+
+style.selector.class {
+  color: #b86b01; }
+
+style.selector.separator {
+  color: #383a42; }
+
+style.value.function {
+  color: #0084bc; }
+
+style.value.color.hex {
+  color: #b86b01; }
+
+style.at {
+  color: #a726a4; }

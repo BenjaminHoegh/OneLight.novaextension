@@ -1,0 +1,259 @@
+$magenta: #a726a4;
+$red: #e45648;
+$dark-red: #ca1243;
+$green: #50a14f;
+$blue: #0084bc;
+$violet: #556de8;
+$brown: #b86b01;
+$white: #fff;
+
+meta {
+  -theme-interface-style: light;
+  -theme-vibrancy: none;
+  -theme-accent-color: true;
+}
+
+/*
+* window styles
+*/
+
+meta.window {
+  background-color: #eaeaeb;
+  border-color: #dbdbdc;
+}
+
+meta.titlebar {
+  color: #232324;
+  background: #eaeaeb;
+  border-color: #dbdbdc;
+}
+
+meta.titlebar.inactive {
+  background-color: #eaeaeb;
+}
+
+meta.button {
+  background-color: $white;
+  border-color: #dbdbdc;
+  color: #424243;
+}
+
+meta.button.highlighted {
+  border-color: $violet;
+}
+
+meta.button.selected {
+  color: $white;
+  background-color: #5871ef;
+  border-color: $violet;
+}
+
+meta.button.disabled {
+  background-color: #f8f8f8;
+  color: #eaeaeb;
+  border-color: #eaeaeb;
+}
+
+meta.textfield {
+  background-color: $white;
+  border-color: #dbdbdc;
+  color: #8e8e90;
+}
+
+meta.textfield.active {
+  background-color: #ebeeff;
+  border-color: #568af2;
+}
+
+/*
+* document styles
+*/
+
+meta.document {
+  background-color: #fafafa;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+meta.document.button {
+  background-color: $white;
+  border-color: #dbdbdc;
+}
+
+meta.document.button.disabled {
+  background-color: #f8f8f8;
+  border-color: #eaeaeb;
+  color: #eaeaeb;
+}
+
+meta.document.button.highlighted {
+  border-color: $violet;
+}
+
+meta.document.textfield {
+  background-color: $white;
+  border-color: #dbdbdc;
+  color: #8e8e90;
+}
+
+meta.document.textfield.highlighted {
+  background-color: #ebeeff;
+}
+
+
+/* text */
+
+meta.text {
+  color: #383a42;
+}
+
+meta.text.invisible {
+  color: #d3d4d5;
+}
+
+meta.text.selected {
+  background-color: #e5e5e6;
+}
+
+/* cursor */
+meta.cursor {
+  background-color: #f0f0f0;
+}
+
+/* indentation guides */
+meta.indentguide {
+  border-color: #3c4048;
+}
+
+/* gutter */
+meta.gutter {
+  color: #c2c2c3;
+}
+
+meta.gutter.selected {
+  background-color: #ededee;
+  color: #86878c;
+}
+
+/* Syntax Highlighting */
+
+keyword {
+  color: $magenta;
+}
+
+comment {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+processing {
+
+}
+
+declaration {
+
+}
+
+bracket {
+  color: #383a42;
+}
+
+operator {
+  color: $magenta;
+}
+
+invalid {
+
+}
+
+value.null,
+value.boolean,
+value.number {
+  color: $brown;
+}
+
+value.entity {
+
+}
+
+value.symbols {
+
+}
+
+string {
+  color: $green;
+}
+
+regex.escaped {
+  color: $blue;
+}
+
+identifier.variable {
+  color: $red;
+}
+
+identifier.function {
+  color: $blue;
+}
+
+identifier.method {
+  color: #3f78f2;
+}
+
+identifier.property {
+  color: $red;
+}
+
+identifier.argument {
+  color: $red;
+}
+
+definition.identifier.constant,
+identifier.type.class.name {
+  color: $brown;
+}
+
+
+/* Tags */
+tag {
+  color: $red;
+}
+tag.framework {
+  color: $dark-red;
+}
+tag.attribute.name {
+  color: $brown;
+}
+tag.attribute.value {
+  color: $green;
+}
+tag.attribute.value.link {
+  color: $blue;
+  text-decoration: underline;
+}
+
+
+
+/* Styles */
+
+style.selector {
+  color: $red;
+}
+
+style.selector.class {
+  color: $brown;
+}
+
+style.selector.separator {
+  color: #383a42;
+}
+
+style.value.function {
+  color: $blue;
+}
+style.value.color.hex {
+  color: $brown;
+}
+
+style.at {
+  color: $magenta;
+}
