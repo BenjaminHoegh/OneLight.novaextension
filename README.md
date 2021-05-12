@@ -4,7 +4,7 @@
 <!-- Shields -->
 
 <p align="center">
-  <img align="center" src="https://github.com/BenjaminHoegh/OneLight.novaextension/raw/master/Images/one-light-preview.png" alt="One Light theme screenshot">
+  <img align="center" src="https://github.com/BenjaminHoegh/OneLight.novaextension/raw/main/Images/one-light-preview.png" alt="One Light theme screenshot">
 </p>
 
 <hr>
